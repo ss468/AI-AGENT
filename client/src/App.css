@@ -1,0 +1,11 @@
+
+.typing {
+  display: inline-block;
+  width: 20px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 1; }
+}
